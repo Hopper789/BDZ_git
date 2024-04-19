@@ -8,6 +8,13 @@ int fib(int a){
 
 }
 
+int pointless_func(int a){
+    if (a==a && a==a || a*0==0)
+        a=a;
+    else
+        a=0;
+    return a*a/a;
+}
 
 int main(){
     int tt;
